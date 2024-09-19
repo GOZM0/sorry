@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology to My Love</title>
+    <style>
+        body {
+            background-color: #ffccff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #ffffff;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff66b2;
+        }
+        p {
+            font-size: 1.5em;
+            color: #ff99cc;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px auto;
+            width: 80%;
+        }
+        .content {
+            flex-grow: 1;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+        }
+        #surpriseContent {
+            display: none;
+            margin-top: 20px;
+        }
+        #forgiveText {
+            display: none;
+            font-size: 2em;
+            color: #ff66b2;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #ff66b2;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="1070087967294631976-i-1284463505050832896-pc-1271842537719463959-266556.10000002384.png" alt="Picture on the Left">
+        <div class="content">
+            <h1>Sweetie, My Love, My Heart, My World, My Everything</h1>
+            <p> I am sorry, 
+                I know I've hurt you, and I deeply regret it. 
+                You mean the world to me, and I can't stand the thought of being without you.
+                Please forgive me and allow me to make it right. I love you with all my heart.
+            </p>
+        </div>
+        <img src="Untitled85_20240914235904.jpg" alt="Picture on the Right">
+    </div>
+
+    <button id="surpriseButton">Click on it Baby 💖</button>
+
+    <div id="surpriseContent">
+        <img src="20231224_211715.jpg" alt="Surprise Picture" style="width:500px; height:auto;">
+        <audio id="surpriseAudio" autoplay>
+            <source src="AAAAUUUGHHHH Meme Sound Effect.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div id="forgiveText">forgive this idiot ffs :( </div>
+
+    <script>
+        document.getElementById("surpriseButton").addEventListener("click", function() {
+            // Show the surprise content (image and audio)
+            document.getElementById("surpriseContent").style.display = "block";
+
+            // Play the audio automatically
+            var audio = document.getElementById("surpriseAudio");
+            audio.play();
+
+            // Show the "Forgive this" text after clicking the button
+            document.getElementById("forgiveText").style.display = "block";
+        });
+    </script>
+</body>
+</html>
